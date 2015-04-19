@@ -2,6 +2,7 @@
 <html lang="en">
 <body>
 <?php
+/* Use PHP to get user IP */
 $ipadd = $_SERVER[REMOTE_ADDR];
 ?>
 <p>Your IP Address: <?php echo $ipadd ?></p>
